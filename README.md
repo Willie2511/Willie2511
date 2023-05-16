@@ -1,16 +1,67 @@
-### Hi there 👋
+## Hi  👋
 
-<!--
-**Willie2511/Willie2511** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+My name is Willie and I am currently working as a cloud native software engineer using technologies such as Helm, Kubernetes and Docker, but have experience in a number of programming styles and languages. 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I have a masters in Applied Software Engineering but have most recently studied Data Analytics at University level, where I have developed numerous new skills. 
+
+The majority of the repositories publicily available on my account are Data Analytics projects. Each pinned repository on the homepage will be explained in more detail below. This information is also clearly provided in each repository ReadMe file. 
+
+I love to collaborate so do not hesitate to contact me with some project ideas. Also please find my LinkedIn profile attached where you can get a better idea of my skills and experience. Let's connect and start forming strong professional relationships. 
+
+
+
+### Programming For DA
+
+The notebook in this repository breaks down the Numpy.random package in Python, and explains its many benefits in the data analytics, data science and machine learning worlds. Data is everywhere around us, and the ability to analyse data has never been more valuable, or important. The random module in numpy enables the creation of data arrays, among many other operations. Specific topics covered in this notebook include explaining the overall purpose of the package, explaining the use of the “Simple random data” and “Permutations” functions, explaining the use and purpose of “Distributions” functions, and explaining the use of seeds in generating pseudorandom numbers. Many of the topics covered in the notebook are technical. This repository is meant to be educational and will provide a greater overall understanding of the Numpy Random package.
+
+
+### Fundamentals of Data Analytics
+
+This repository contains a jupyter notebook with four tasks for a Fundamentals of Data Analysis college module. Each task has been given an individual section in the notebook, clearly marked with a heading, beginning with an explanation of the thought process behind methods of completing the task, followed by the code. The tasks get increasingly difficult, and require greater levels of complexity and detail in the code.
+
+Task 1 - Required a Python function called counts to be created, which takes a list as input and returns a dictionary of unique items in the list as keys and the number of times each item appears as values. The python dict() function was used for this task, a function which creates a dictionary, taking a list as input. The List.count() function is used to return a count of each key in the list. This task was relatively simple and required very minimal code.
+
+Task 2 - Required a Python function called dicerolls to be created which simulates rolling dice. The function takes two parameters: the number of dice, k, and the number of times to roll the dice, n. The function simulates randomly rolling k dice n times, keeping track of each total face value, and returns a dictionary with the number of times each possible total face value occurred. Once the function and its parameters were defined, an empty dictionary was set up. This was followed by a for loop which used the random.choice function to select a side value of the rolled dice, and was carried out n times. The results of each roll in the loop were added to the empty dictionary. The function then returns a dictionary of results. This task required a defined function, the creation of a dictionary, and a standard for loop to return the desired output.
+
+Task 3 - Required us to write python code which simulates flipping a coin 100 times. The code will then be run 1,000 times, keeping track of the number of heads in each of the 1,000 simulations. An appropriate plot will be selected to depict the resulting list of 1,000 numbers, showing that it roughly follows a bell-shaped curve. The use of the numpy.binomial function was used for this task, which was relatively simple once the parameters were carefully selected. A binomial distribution describes the outcome of a binary scenario, a scenario with two possible outcomes. The numpy.random.binomial function has three parameters 1. n - number of trials 2. p - probability of occurence of each trial (e.g. for toss of a coin 0.5 each) 3. size - The shape of the returned array (w3schools, 2020). We set the probability (p) to 0.5, the number of trials (n) to 100, and size to 1000 to get the desired output as specified. In order to plot the output and show that it roughly follows a bell-shaped curve, we used the seaborn.distplot function. Setting hist = true, sets the plot as a histogram, and kde = true, plots a gaussian kernel density estimate. Once the output of the coin flip is run through this function, the bell-shaped curve is clearly observed.
+
+Task 4 - Deals with Simpson’s paradox, a well-known statistical paradox which occurs when a trend or result that is present when data is put into groups, reverses or disappears when the data is combined (Grigg, 2018). This task requires us to use numpy to create four data sets, each with an x array and a corresponding y array, to demonstrate Simpson’s paradox. To clearly understand Simpson's paradox we create the four data sets, plot them on one graph to show the positive x, y correlation and slope, and then add a combined best fit line to show the presence of Simpson's paradox. Four x arrays are created using the numpy.linspace function to return evenly spaced numbers over a specified interval. To create a y array to correspond with the x array, we use the equation y = a * x + b. This equation is a linear equation in slope-intercept form. We then add some random numbers from the normal distribution, to add noise to the array. When the four x and y arrays are created, we use the numpy.polyfit function to get the coefficients of each set of axis, which will be used to plot the best fit line of each set. Then we simply plot each of the 4 sets of arrays, along with their best fit lines, to compare their slopes. Finally, we concatenate each x arrays and y arrays using the numpy.concatenate function, and use the polyfit function to get the coefficient so that we can plot the combined best fit line of the data set. The combined best fit line is added to the plot of the 4 separate arrays, providing a visual representation of Simpson's paradox.
+
+The four tasks provide a good challenge, and are beneficial in development as a data analyst. The first two tasks required careful thought and the creation of functions, while tasks three and four require further learning of new code, functions and expanded knowledge of data analytics. 
+
+
+### Data Analytics Project
+
+This project provided a data set based on wind turbine power output and wind speed, and requires us to perform simple linear regression on the data set in order to accurately predict wind turbine power output from wind speed values. Two different methods of performing simple linear regression are provided, using both numpy polyfit and sklearn linear regression, with R2 values calculated for each to assess accuracy. Best fit lines are added to a scatter plot of the original data set.
+
+Once the simple linear regression tasks are complete, a polynomial linear regression is created. Two different methods are provided for this task also, with both numpy polyfit and sklearn polynomial regression used. A cubic curve is created and added to the scatter plot of the original data set. Similar to the simple linear regression, R2 values are calculated for each to assess prediction accuracy.
+
+This project provides a combination of code cells and descriptive text to explain the process behind the creation of the prediction models and best fit lines/curves. The imported libraries used are extremely powerful in the world of data analytics and A.I, yet they are simple to use and very time efficient. Each section is clearly highlighted and organised in an easy to understand, detailed, manner.
+
+The results from the project show that a polynomial linear regression is 15% more accurate than a simple linear regression at predicting wind turbine power output from wind speed values.
+
+
+### Fisher Iris Project
+
+This project investigates and analyses the well-known Fishers Iris Data Set. This is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his paper 'The Use of Multiple Measurements in Taxonomic Problems'. The data was collected by Edgar Anderson to quantify the morphologic variation of iris flowers of three related species. The data set consists of 50 samples from three species of iris (setosa, virginica and versicolor). The length and width, in centimetres, of the sepals and petals for each sample were recorded. This project imports and analyses the data set using python, summarizes the variables, and produces graphs and plots to add visual representation of results. To run the project simply run the analyses.py file in a supportive environment. The code is clearly marked with comments throughout to explain what each line of code does. The ReadMe file also provides a thorough explanation of the study.
+
+### Programming and Scripting
+
+
+This repository contains a number of tasks. The first task (bmi.py) was to write a program that calculates a user’s Body Mass Index. Body Mass Index is calculated using the formula kg/m*m. The inputs needed for this calculation are the person's height in meters squared and weight in kilograms. The output is their weight divided by their height in metres squared. Therefore, I labelled the user input for height (in meters) as x, and let height = x * x in order to get the users height in meters squared. This makes the program much easier for a potential user to calculate BMI, due to its user-friendly height and weight units. This is a simple program which deals with basic user inputs.
+
+The second task (secondstring.py) was to write a program that asks a user to input a string and outputs every second letter in reverse order. I declared the variable "s" as the user input, received using the input("please enter a sentence: ") command. Every second letter in reverse was achieved using the print(s[::-2]) command. A short piece of code was developed to achieve the desired result for this task.
+
+The third task (collatz.py) was to write a program that asks the user to input any positive integer and outputs the successive values of the following calculation. At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. This task was an introduction to inputs, loops and if statements. The program begins by asking the user to input a positive integer, and the variable 'n' is given to this input. We then start our while loop by instructing the loop, which will follow, to continue until n=1. We then move onto including the instructions set out in the task. If n / 2 is not equal to zero, it is therefore odd, and should be multiplied by 3 and have 1 added to it. We then use the Else function, which means that n is divisible by 2 and is therefore even, we then simply divide the number by 2. This loop continues until n = 1, and "Finished" is then printed on the screen. While the code for this task was quite simple, it required careful thought and attention.
+
+The fourth weekly task (weekday.py) was to write a program that outputs whether or not today is a weekday. This task introduced me to importing, and datetime. The first step for this task was to import datetime, and define variables given to the datetime.datetime.now() function, and the today.weekday() function. Day names were given numerical values in a list. First the program would print what day it was using the command print("Today is ", dayname[day]). If the day was from Monday - Friday inclusive, it would print "It is a Weekday", else it would print "It is the Weekend". While the resulting code was relatively simple, using datetime and a loop, it was challenging as using datetime correctly required me to learn new code.
+
+The fifth task (squareroot.py) was to write a program that takes a positive floating-point number as input and outputs an approximation of its square root. As we would be using Newton's method for calculating the approximate square root of a number, we first researched the formula which would need to be used. Newton's method for computing square roots is New x = 1/2 (x + b/x) where b is the number, and x is the estimate square root of b. Once this step was complete we gathered the necessary information (number, number of iterations, and estimate square root) as user inputs. We then define the function as newton_method (n, a, y) before starting the loop. Letting ans= a makes for a cleaner equation, and having y = y-1 followed by 'while y > 0' will ensure the follwing loop will repeat until y = 0. We then write out Newton's function with the appropriate variables inserted and the loop begins. Ans is returned when y = 0 and the figure is printed on the screen. This task was quite challenging as it included a number of variables and a formula which required attention and specific placement.
+
+The sixth task (es.py) was to write a program that reads in a text file and outputs the number of e's it contains. The text file downloaded was a passage from Moby Dick, and was saved as a .txt file on my desktop. I started by listing a couple of variables before starting the loop. As we were searching for the letter e in the text, i let letters='e' and k=0. Using the 'with open (link to text, 'r') as f:' function allowed me to complete two lines of code in one, thus simplifying the code. I then split the text into lines, using the line.split() function, and started a loop to check for the letter 'e'. 'if (letter=letters): k = k + 1. This loop would continue to the end of the text file and would then print k, the number of e's in the piece, to the screen. This task required a more complex loop and line.split functions with which i was unfamiliar. It took a few unsuccessful attempts before I eventually completed the task.
+
+The seventh weekly task (plots.py) in the repository was to write a program that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes. This task introduced matplotlib and numpy as tools to analyse and visualise a set of data. The first lines of the program imported both numpy as np, and matplotlib.pyplot as plt, which would be the two libraries used for the data analyses. np.linspace was used to define the start, end and number of samples to generate. I decided to use 100 samples in order to gain a greater list size, and more accurate graph. Variables g and h were assigned the x squared and x cubed values, and both were plotted using matplotlib.pyplot. Both were labelled and assigned colours in order to separate them on the graph. Legends, Titles and axis labels were added to ensure the resulting graph was easily understood and accurately represented the data. It was challenging to get comfortable using both matplotlib and numpy, especially when attempting to produce accurate graphs. However, through trial and error and simply spending time working with both programs it made me realise how powerful both tools will prove to be throughout my data career.
+Each task is a python file which contains the necessary python code. Simply run the python files in a supported environment. 
+
+
