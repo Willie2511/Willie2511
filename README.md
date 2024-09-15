@@ -1,15 +1,16 @@
 ## Hi, I'm Willie 👋 
 
 
-I am currently working as a cloud native software engineer using technologies such as Helm, Kubernetes and Docker, but have experience in a number of programming styles and languages. 
+Hello! I’m a Cloud Native Software Engineer with a Passion for Data Analytics
 
-I have a masters in Applied Software Engineering and have most recently studied Data Analytics at University level, where I have developed numerous new skills. 
+Welcome to my GitHub profile! I’m deeply immersed in the world of cloud-native technologies, working with tools like Helm, Kubernetes, and Docker. My journey through various programming styles and languages has been an exciting one, and I’m always eager to learn and explore new tech.
 
-I love to collaborate so do not hesitate to contact me with some project ideas. 
+With a Master’s in Applied Software Engineering and recent studies in Data Analytics, I’ve been diving into the intersection of technology and data, uncovering new insights and solutions along the way.
 
-Also please find my LinkedIn profile attached where you can get a better idea of my skills and experience. 
+I thrive on collaboration and love connecting with others to brainstorm and build innovative projects. If you’ve got a project idea, a question, or just want to chat about the latest in tech, I’d love to hear from you.
 
-Let's connect and start forming strong professional relationships. 
+Let’s connect and see where our ideas can take us. You can find more about my professional background and interests on my LinkedIn: 
 
+Looking forward to engaging with you and exploring new possibilities!
 
 
