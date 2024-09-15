@@ -9,7 +9,7 @@ With a Master’s in Applied Software Engineering and recent studies in Data Ana
 
 I thrive on collaboration and love connecting with others to brainstorm and build innovative projects. If you’ve got a project idea, a question, or just want to chat about the latest in tech, I’d love to hear from you.
 
-Let’s connect and see where our ideas can take us. You can find more about my professional background and interests on my LinkedIn: 
+Let’s connect and see where our ideas can take us. You can find more about my professional background and interests on my LinkedIn.
 
 Looking forward to engaging with you and exploring new possibilities!
 
